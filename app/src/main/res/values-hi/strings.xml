@@ -1,0 +1,26 @@
+<resources>
+    <string name="label_name">नाम:</string>
+    <string name="label_rank">पद:</string>
+    <string name="label_amount">राशि:</string>
+    <string name="label_paid_on">भुगतान की तिथि:</string>
+    <string name="label_remarks">टिप्पणी:</string>
+
+    <string name="btn_select_language">भाषा बदलें</string>
+    <string name="dashboard_title">पूर्व सैनिक डैशबोर्ड</string>
+    <string name="change_language">🌐 भाषा बदलें</string>
+    <string name="view_pension">पेंशन देखें</string>
+    <string name="view_timeline">सेवा समयरेखा देखें</string>
+    <string name="get_benefits">🏛️लाभ के लिए आवेदन करें</string>
+
+    <string name="mental_health">मानसिक स्वास्थ्य सहायता</string>
+    <string name="nearby_hospitals">नजदीकी सैन्य अस्पताल</string>
+    <string name="estimate_retirement">सेवानिवृत्ति का अनुमान</string>
+    <string name="translate_text">अनुवाद करें</string>
+    <string name="talk_to_ai">🤖 एआई मानसिक स्वास्थ्य सहायक से बात करें</string>
+    <string name="retirement_estimate_icon">सेवानिवृत्ति अनुमान आइकन</string>
+    <string name="hero_story">🎖️ मिशन रीलाइव – हीरो की कहानी</string>
+    <string name="manage_dependents">निर्भर व्यक्तियों का प्रबंधन करें</string>
+    <string name="search_notifications">सूचनाएँ खोजें</string>
+    <string name="latest_notifications_heading">📢 सरकारी सूचनाएँ</string>
+
+</resources>

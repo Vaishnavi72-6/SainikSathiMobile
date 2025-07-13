@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DependentStudentDashboardActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎓 Welcome, Proud Dependent!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <GridView
+        android:id="@+id/gridViewFeatures"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvWelcome"
+        android:padding="12dp"
+        android:horizontalSpacing="12dp"
+        android:verticalSpacing="12dp"
+        android:gravity="center"
+        android:clipToPadding="false" />
+</RelativeLayout>

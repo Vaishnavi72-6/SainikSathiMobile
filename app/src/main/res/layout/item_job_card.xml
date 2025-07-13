@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    android:layout_margin="10dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 🧳 Job Title -->
+        <TextView
+            android:id="@+id/tvJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧳 Job Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="6dp" />
+
+        <!-- 💰 Salary -->
+        <TextView
+            android:id="@+id/tvSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💰 Salary"
+            android:textSize="15sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 📍 Location -->
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Location"
+            android:textSize="15sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 🔘 Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="4"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnEligibility"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="✅ Eligibility"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnMaps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="📍 Map"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="📞 Call"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="📤 Apply"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

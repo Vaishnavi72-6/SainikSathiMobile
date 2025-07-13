@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Pension and Scheme Buttons -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Pension Entry" />
+
+        <Button
+            android:id="@+id/btnPension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Pension Details"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSchemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Government Schemes"
+            android:layout_marginTop="8dp" />
+
+        <!-- New Unique Buttons -->
+        <Button
+            android:id="@+id/btnApplyBenefits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply for Govt Benefit"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnAIChatbot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Assistant"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnTimeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Timeline"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnNearbyHospitals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearby Military Hospitals"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnMentalHealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mental Health Support"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latest Govt Notifications"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnDependents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dependent Management"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnDownloadCertificate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Pension Certificate"
+            android:layout_marginTop="8dp" />
+
+        <!-- 🔁 Logout Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#D32F2F"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

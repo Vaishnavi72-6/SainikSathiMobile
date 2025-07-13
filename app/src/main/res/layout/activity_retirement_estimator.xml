@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Heading -->
+
+        <!-- Input Fields -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Retirement Settlement Estimator"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Full Name"
+            android:padding="12dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/editRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rank"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/editServiceYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Years"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/editBasicPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Basic Pay (₹)"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/editGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Group (A/B/C)"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/editRetirementYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Retirement Year"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/editLeaveDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Leave Days for Encashment"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <!-- Add Signature -->
+        <Button
+            android:id="@+id/btnAddSignature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Signature"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#004080"
+            android:textColor="#FFFFFF" />
+
+        <!-- Calculate -->
+
+        <Button
+            android:id="@+id/btnGenerateBoth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Pension &amp; EPFO Certificates"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="12dp"
+            />
+        <Button
+            android:id="@+id/btnGenerateIdCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🪪 Generate Ex-Serviceman ID Card"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+
+
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will appear here"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:background="#EEEEEE"
+            android:padding="12dp" />
+
+        <!-- PPO Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PPO Certificate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnViewPpo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="View PPO"
+                android:backgroundTint="#1565C0"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSharePpo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Share PPO"
+                android:backgroundTint="#1565C0"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- EPFO Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EPFO Certificate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnViewEpfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="View EPFO"
+                android:backgroundTint="#6A1B9A"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnShareEpfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Share EPFO"
+                android:backgroundTint="#6A1B9A"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

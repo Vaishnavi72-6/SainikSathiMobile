@@ -1,0 +1,26 @@
+<resources>
+    <string name="label_name">பெயர்:</string>
+    <string name="label_rank">பதவி:</string>
+    <string name="label_amount">தொகை:</string>
+    <string name="label_paid_on">செலுத்திய தேதி:</string>
+    <string name="label_remarks">குறிப்புகள்:</string>
+
+    <string name="btn_select_language">மொழியை மாற்றவும்</string>
+    <string name="dashboard_title">ஏற்கனவே பணியாற்றிய வீரர் டாஷ்போர்டு</string>
+    <string name="change_language">🌐 மொழியை மாற்றவும்</string>
+    <string name="view_pension">ஊதியத்தை காண்க</string>
+    <string name="view_timeline">முழு சேவை காலக்கோட்டத்தை காண்க</string>
+    <string name="get_benefits">🏛️நன்மைக்காக விண்ணப்பிக்கவும்</string>
+
+    <string name="mental_health">மனநல ஆதரவு</string>
+    <string name="nearby_hospitals">அருகிலுள்ள ராணுவ மருத்துவமனைகள்</string>
+    <string name="estimate_retirement">ஓய்வூதிய கணிப்பு</string>
+    <string name="translate_text">உரை மொழிபெயர்ப்பு</string>
+    <string name="talk_to_ai">🤖 AI மனநல உதவியாளருடன் பேசவும்</string>
+    <string name="retirement_estimate_icon">ஓய்வு கணிப்பு சின்னம்</string>
+    <string name="hero_story">🎖️ மிஷன் ரிலைவ் – ஹீரோ கதைகள்</string>
+    <string name="manage_dependents"> phụப்பயனாளர்களை நிர்வகிக்கவும்</string>
+    <string name="search_notifications">அறிவிப்புகளை தேடுங்கள்</string>
+    <string name="latest_notifications_heading">📢 அரசுத் அறிவிப்புகள்</string>
+
+</resources>

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Chennai CSD Canteen",
+    "address": "Anna Nagar, Chennai",
+    "phone": "044-12345678",
+    "mapsUrl": "https://www.google.com/maps?q=Chennai+CSD+Canteen"
+  },
+  {
+    "name": "Hyderabad CSD Depot",
+    "address": "Secunderabad, Hyderabad",
+    "phone": "040-87654321",
+    "mapsUrl": "https://www.google.com/maps?q=Hyderabad+CSD+Canteen"
+  },
+  {
+    "name": "Pune CSD Canteen",
+    "address": "Camp Area, Pune",
+    "phone": "020-23456789",
+    "mapsUrl": "https://www.google.com/maps?q=Pune+CSD+Canteen"
+  }
+]

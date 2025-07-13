@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Security Supervisor",
+    "salary": "₹25,000/month",
+    "location": "Delhi",
+    "mapsUrl": "https://maps.app.goo.gl/ZFX1AZtQ8LftCbBo9",
+    "phone": "011-45678901",
+    "applyUrl": "https://dgrindia.gov.in/job/123",
+    "minService": 0,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Driver (Heavy Vehicle)",
+    "salary": "₹22,000/month",
+    "location": "Jaipur, Rajasthan",
+    "mapsUrl": "https://maps.app.goo.gl/sxi1hQPEqQx3UZiR9",
+    "phone": "0141-2345678",
+    "applyUrl": "https://ncs.gov.in/job/2024/heavy_driver",
+    "minService": 5,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Welfare Officer",
+    "salary": "₹35,000/month",
+    "location": "Lucknow, Uttar Pradesh",
+    "mapsUrl": "https://maps.app.goo.gl/dh7TbRMcYFXN3znUA",
+    "phone": "0522-9876543",
+    "applyUrl": "https://dgrindia.gov.in/job/2024/welfare_officer",
+    "minService": 10,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Field Officer – Records",
+    "salary": "₹40,000/month",
+    "location": "Hyderabad, Telangana",
+    "mapsUrl": "https://maps.app.goo.gl/aPbHbHbxN8YikCFP8",
+    "phone": "040-23456789",
+    "applyUrl": "https://ncs.gov.in/job/ncrb_field_2024",
+    "minService": 5,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Warehouse Supervisor",
+    "salary": "₹28,000/month",
+    "location": "Bangalore, Karnataka",
+    "mapsUrl": "https://maps.app.goo.gl/Ai3sfyPpGhF5veXc6",
+    "phone": "080-1234567",
+    "applyUrl": "https://esw.gov.in/job/warehousing_supervisor",
+    "minService": 6,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Assistant Security Manager – Airport",
+    "salary": "₹42,000/month",
+    "location": "Mumbai, Maharashtra",
+    "mapsUrl": "https://maps.app.goo.gl/ALmv6G3ibdhhr28u5",
+    "phone": "022-7894561",
+    "applyUrl": "https://dgrindia.gov.in/job/security_mumbai",
+    "minService": 8,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Project Coordinator – Skill India",
+    "salary": "₹30,000/month",
+    "location": "Bhopal, Madhya Pradesh",
+    "mapsUrl": "https://maps.app.goo.gl/M7H8jDRimJKkJgg48",
+    "phone": "0755-9873214",
+    "applyUrl": "https://ncs.gov.in/job/skill_coord_bhopal",
+    "minService": 7,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Office Assistant – ECHS",
+    "salary": "₹20,000/month",
+    "location": "Kochi, Kerala",
+    "mapsUrl": "https://maps.app.goo.gl/6LETegs1zCkJ39NL7",
+    "mapsUrl": "https://maps.app.goo.gl/9Vx7fq6kmeWisXQA7",
+    "phone": "0484-5647382",
+    "applyUrl": "https://echs.gov.in/job/echs_kochi",
+    "minService": 0,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Security Trainer",
+    "salary": "₹27,000/month",
+    "location": "Pune, Maharashtra",
+    "mapsUrl": "https://maps.app.goo.gl/FjxkEb7GfhT4gJ477",
+    "phone": "020-67473829",
+    "applyUrl": "https://dgrindia.gov.in/job/trainer_pune",
+    "minService": 5,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  },
+  {
+    "title": "Pension Liaison Officer",
+    "salary": "₹33,000/month",
+    "location": "Chandigarh",
+    "mapsUrl": "https://maps.app.goo.gl/rHgBZ6m6MCp7YWzR7",
+    "phone": "0172-4532167",
+    "applyUrl": "https://maps.app.goo.gl/GRNpX32Z1u1EeWkc9",
+    "minService": 10,
+    "disabledOnly": false,
+    "rankRequired": ["any"]
+  }
+]

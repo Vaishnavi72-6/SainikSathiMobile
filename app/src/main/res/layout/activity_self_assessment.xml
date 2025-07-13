@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="🧠 Self Assessment Checklist"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/cbQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I’ve been feeling down or hopeless often." />
+
+        <CheckBox
+            android:id="@+id/cbQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I find it hard to sleep or feel rested." />
+
+        <CheckBox
+            android:id="@+id/cbQuestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I’ve lost interest in activities I used to enjoy." />
+
+        <CheckBox
+            android:id="@+id/cbQuestion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I feel anxious, restless, or easily irritated." />
+
+        <CheckBox
+            android:id="@+id/cbQuestion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I avoid talking to friends or family." />
+
+        <Button
+            android:id="@+id/btnSubmitAssessment"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvAssessmentResult"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvAssessmentTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006400"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:text="Tips will appear here after submitting."
+            android:padding="8dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

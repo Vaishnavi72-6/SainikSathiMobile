@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEEEEE"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:text="Date"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:text="₹5000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvRemarks"
+        android:text="Defence Pension"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

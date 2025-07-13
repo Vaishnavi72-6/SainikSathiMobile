@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <!-- Logo Top -->
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sainik_logo"
+        android:contentDescription="Logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:text="Pension Certificate"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:text="Name: "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Rank -->
+    <TextView
+        android:id="@+id/tvRank"
+        android:text="Rank: "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- PPO -->
+    <TextView
+        android:id="@+id/tvPPO"
+        android:text="PPO Number: "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- DOB -->
+    <TextView
+        android:id="@+id/tvDOB"
+        android:text="Date of Birth: "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Certification line -->
+    <TextView
+        android:text="This certifies that the above individual is a registered pensioner under the Defence Pension Scheme."
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Signature block -->
+    <TextView
+        android:text="Authorized Digital Signature:"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp" />
+
+    <ImageView
+        android:id="@+id/signatureView"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="start"
+        android:contentDescription="Signature"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sainiksathimobile">
+
+    <!-- Permissions -->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:localeConfig="@xml/locales_config"
+        android:theme="@style/Theme.SainikSathiMobile">
+
+
+        <!-- Launcher -->
+        <activity android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Activities -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".CivilianDashboardActivity" />
+        <activity android:name=".SchemeRecommenderActivity"
+            android:exported="true" />
+        <activity android:name=".DependentStudentDashboardActivity" />
+
+
+
+        <activity android:name=".ExServicemanDashboardActivity" />
+        <activity android:name=".PensionTrackerActivity" />
+        <activity android:name=".GovtNotificationsActivity" />
+        <activity android:name=".PensionCertificateActivity" />
+        <activity android:name=".SignatureActivity" />
+        <activity android:name=".ServiceTimelineActivity" />
+        <activity android:name=".ViewPensionActivity" />
+        <activity android:name=".ApplyForBenefitsActivity" />
+        <activity android:name=".OCRScannerActivity" />
+        <activity android:name=".ManageDependentsActivity" />
+
+
+
+        <activity android:name=".NearbyHospitalsActivity" />
+
+
+        <activity android:name=".MentalHealthSupportActivity" />
+        <activity android:name=".PdfViewerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".WellnessTipsActivity" />
+        <activity android:name=".SelfAssessmentActivity" />
+        <activity android:name=".AIChatBotActivity" />
+        <activity android:name=".LanguageSelectionActivity" />
+
+        <activity android:name=".ManualEntryActivity" />
+        <activity android:name=".TranslationActivity" />
+        <activity android:name=".RetirementEstimatorActivity" />
+        <activity android:name=".HeroStoryActivity" />
+
+        <!-- Single FileProvider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.sainiksathimobile.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.sainiksathimobile.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Optional Screens -->
+        <!-- <activity android:name=".SecureVaultActivity" /> -->
+        <!-- <activity android:name=".SchemeBrowserActivity" /> -->
+
+    </application>
+
+</manifest>

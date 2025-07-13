@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PM Skill Development Yojana",
+    "type": "Central",
+    "target_state": "All",
+    "eligibility": "Any ex-serviceman aged 18–60. Minimum service: 2 years.",
+    "applyUrl": "https://www.india.gov.in/spotlight/pradhan-mantri-kaushal-vikas-yojana#tab=tab-1",
+    "brochureFile": "pmkvy_brochure.pdf"
+  },
+  {
+    "name": "Tamil Nadu War Widow Pension",
+    "type": "State",
+    "target_state": "Tamil Nadu",
+    "eligibility": "For war widows residing in Tamil Nadu.",
+    "applyUrl": "https://yojanastatusadda.com/widow-pension-scheme-in-tamilnadu/",
+    "brochureFile": "tn_widow_pension.pdf"
+  },
+  {
+    "name": "Maharashtra ESM Scholarship",
+    "type": "State",
+    "target_state": "Maharashtra",
+    "eligibility": "Children of ex-servicemen with 75%+ marks.",
+    "applyUrl": "maha_scholarship.pdf",
+    "brochureFile": "maha_scholarship.pdf"
+  }
+]

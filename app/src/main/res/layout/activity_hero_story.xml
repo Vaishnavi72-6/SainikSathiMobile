@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Language Selector -->
+        <Spinner
+            android:id="@+id/spinnerLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:entries="@array/languages" />
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Enter Full Name" />
+
+        <EditText
+            android:id="@+id/etRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Enter Retired Rank" />
+
+        <EditText
+            android:id="@+id/etYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Service Years (e.g. 28)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etRetireYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Retirement Year (e.g. 2023)"
+            android:inputType="number" />
+
+        <!-- Generate Story Button -->
+        <Button
+            android:id="@+id/btnGenerateStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Generate Story"
+            android:layout_marginTop="16dp" />
+
+        <!-- Story Output -->
+        <TextView
+            android:id="@+id/storyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:paddingTop="16dp"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- Action Buttons -->
+        <Button
+            android:id="@+id/btnDownloadPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Download as PDF"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnSharePdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📤 Share Story"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnPlayVoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Play Voice Story"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnPauseVoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏸️ Pause"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

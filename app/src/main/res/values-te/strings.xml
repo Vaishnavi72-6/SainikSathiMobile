@@ -1,0 +1,26 @@
+<resources>
+    <string name="label_name">పేరు:</string>
+    <string name="label_rank">హోదా:</string>
+    <string name="label_amount">మొత్తం:</string>
+    <string name="label_paid_on">చెల్లించిన తేదీ:</string>
+    <string name="label_remarks">గమనికలు:</string>
+
+    <string name="btn_select_language">భాషను మార్చు</string>
+    <string name="dashboard_title">ఎక్స్-సర్వీస్మెన్ డాష్‌బోర్డ్</string>
+    <string name="change_language">🌐 భాషను మార్చు</string>
+    <string name="view_pension">పెన్షన్ చూడండి</string>
+    <string name="view_timeline">పూర్తి సేవ టైమ్‌లైన్ చూడండి</string>
+    <string name="get_benefits">🏛️లాభాలకు దరఖాస్తు చేయండి</string>
+
+    <string name="mental_health">మానసిక ఆరోగ్య సహాయం</string>
+    <string name="nearby_hospitals">సమీపంలోని సైనిక ఆసుపత్రులు</string>
+    <string name="estimate_retirement">రిటైర్మెంట్ అంచనా</string>
+    <string name="translate_text">పాఠ్యాన్ని అనువదించు</string>
+    <string name="talk_to_ai">🤖 AI మెంటల్ హెల్త్ అసిస్టెంట్‌తో మాట్లాడండి</string>
+    <string name="retirement_estimate_icon">రిటైర్మెంట్ అంచనా చిహ్నం</string>
+    <string name="hero_story">🎖️ మిషన్ రీలైవ్ – హీరో కథ</string>
+    <string name="manage_dependents">ఆధారితుల నిర్వహణ</string>
+    <string name="search_notifications">ప్రకటనలు వెతకండి</string>
+    <string name="latest_notifications_heading">📢 ప్రభుత్వ ప్రకటనలు</string>
+
+</resources>

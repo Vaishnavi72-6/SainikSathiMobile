@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SainikSathiMobile</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome!</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="hint_date">Month &amp; Year (e.g. June 2025)</string>
+    <string name="hint_amount">Amount (e.g. 35000)</string>
+    <string name="hint_remarks">Remarks (e.g. Credited, Delayed)</string>
+
+    <!-- Dashboard-related strings -->
+    <string name="label_name">Name:</string>
+    <string name="label_rank">Rank:</string>
+    <string name="label_amount">Amount:</string>
+    <string name="label_paid_on">Paid On:</string>
+    <string name="label_remarks">Remarks:</string>
+
+    <string name="btn_select_language">🌐Change Language</string>
+    <string name="dashboard_title">🎖️Ex-Serviceman Dashboard</string>
+    <string name="change_language">🌐 Change Language</string>
+    <string name="view_pension">📜View Pension</string>
+    <string name="view_timeline">🗓️View Full Service Timeline</string>
+    <string name="get_benefits">🏛️Apply for benefits</string>
+    <string name="mental_health">🧠Mental Health Support</string>
+    <string name="nearby_hospitals">🏥Nearby Military Hospitals</string>
+    <string name="estimate_retirement">🧮Estimate Retirement </string>
+    <string name="translate_text">🌐Translate Text</string>
+    <string name="talk_to_ai">🤖 Talk to AI Mental Health Assistant</string>
+    <string name="retirement_estimate_icon">🧮Retirement Estimate Icon</string>
+    <string name="hero_story">🎖️ Mission ReLive – Hero Story</string>
+    <string name="manage_dependents">Manage Dependents</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+    </string-array>
+
+    <string name="search_notifications">Search Notifications</string>
+    <string name="latest_notifications_heading">📢 Govt Notifications</string>
+
+</resources>

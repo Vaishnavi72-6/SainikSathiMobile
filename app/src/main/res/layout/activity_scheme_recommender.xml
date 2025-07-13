@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvFormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎓 Scheme Recommender"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Age -->
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Age"
+            android:inputType="number"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Gender -->
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Education Level -->
+        <Spinner
+            android:id="@+id/spinnerEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Income -->
+        <EditText
+            android:id="@+id/etIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Annual Family Income (₹)"
+            android:inputType="number"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Relation with Ex-Serviceman -->
+        <Spinner
+            android:id="@+id/spinnerRelation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- State -->
+        <Spinner
+            android:id="@+id/spinnerState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnFindSchemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Find Eligible Schemes"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerMatchedSchemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Sainik Sathi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnExServiceman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👮‍♂️ Ex-Serviceman Dashboard"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCivilian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👤 Civilian Dashboard"
+        android:textSize="18sp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

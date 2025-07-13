@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 🎖 Rank -->
+        <EditText
+            android:id="@+id/etRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="🎖 Enter Retired Rank"
+            android:inputType="textCapWords"
+            android:background="@android:drawable/edit_text"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- 📆 Years of Service -->
+        <EditText
+            android:id="@+id/etServiceYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="📆 Years of Service"
+            android:inputType="number"
+            android:background="@android:drawable/edit_text"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- ♿ Disability Switch -->
+        <Switch
+            android:id="@+id/switchDisability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♿ Are you disabled?"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- 📍 State -->
+        <Spinner
+            android:id="@+id/spinnerState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 📤 Buttons Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnFetchJobs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🧳 Eligible Jobs"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnShowSchemes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🏛️ Govt Schemes"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- 🧳 Job Results Label -->
+        <TextView
+            android:id="@+id/tvJobsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧳 Jobs You're Eligible For"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- 🔁 Job Cards RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 🏛️ Govt Schemes Label -->
+        <TextView
+            android:id="@+id/tvSchemesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏛️ Central + State Govt Schemes"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <!-- 📋 Govt Schemes List -->
+        <LinearLayout
+            android:id="@+id/layoutSchemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <!-- 🏬 View CSD Canteens (Full Width) -->
+        <Button
+            android:id="@+id/btnShowCanteens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏬 View CSD Canteens"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FFFFFF" />
+
+        <!-- 🏬 Canteens Label -->
+        <TextView
+            android:id="@+id/tvCanteensLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏬 Nearby CSD Canteens"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 📦 CSD Canteens List -->
+        <LinearLayout
+            android:id="@+id/layoutCanteens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
